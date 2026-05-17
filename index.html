@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <style>
+            .container{
+                /* text-align: center; */
+
+                height: 100%;
+                width: auto;
+                margin: 20px;
+                border: 20px solid rgb(14, 155, 243);
+                border-radius: 1rem;
+                }
+                .parent{
+                    border: 2px solid green;
+                    margin: 10px;
+                    height: auto;
+                    border-radius: 1rem;
+
+                }
+                .child{
+                   
+                    margin-top: 10px;
+                    height: auto;
+                    border-radius: 1rem;
+                    margin-bottom: 1pc;
+
+                }
+
+                .subchild{
+                    
+                    text-align: center;
+                    margin: 8px;
+
+                }
+
+            
+        </style>
+        <body>
+
+            <div class = "container">
+                <h1 style="text-align: center;">Todo List</h1>
+                <div class = parent>
+
+                    <div class="subchild">
+                        <label for="text">Enter your name:
+                      
+                    </label>
+                    <input type="text" placeholder="Enter your name:" id = "taskInput">
+                    <button type="button">add</button>
+                </div>
+
+                    
+
+                    <div class = "child">
+                    <ul>
+                        <li> Name: Rohit Kumar Maurya </li>
+                        <li>Age: 17</li>
+                        
+                    </ul>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+          <script src="script.js"></script>
+        
+            
+        </body>
+    </head>
+
+</html>
